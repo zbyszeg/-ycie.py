@@ -64,7 +64,6 @@ while True:
             lastD = d
             effect.apply()
     except EOFError:
-        print('--koniec--')
         break
 
 if (lastD == 1) or (lastD == 0):
